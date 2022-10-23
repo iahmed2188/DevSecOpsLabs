@@ -47,4 +47,4 @@
 workflows:
  dev_flow:
    jobs:
-      - wizcli_scan
+    - wizcli_scan
