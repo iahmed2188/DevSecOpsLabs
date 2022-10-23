@@ -1,6 +1,6 @@
- version: 2
- jobs:
-   wizcli_scan:
+version: 2
+jobs:
+  wizcli_scan:
      machine: true
      working_directory: ~/app
 
