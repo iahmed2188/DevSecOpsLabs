@@ -1,3 +1,4 @@
+ version: 2
  jobs:
   wizcli_scan:
     machine: true
@@ -44,7 +45,6 @@
 
 # In your workflow, make sure to trigger the wizcli_scan job you just declared above (it can trigger after a docker_build job):
 workflows:
-  version: 2
-  build_workflow:
-    jobs:
+ dev_flow:
+   jobs:
       - wizcli_scan
