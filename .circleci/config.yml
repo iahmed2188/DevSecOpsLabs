@@ -45,6 +45,6 @@
 
 # In your workflow, make sure to trigger the wizcli_scan job you just declared above (it can trigger after a docker_build job):
 workflows:
- dev_flow:
-   jobs:
-    - wizcli_scan
+  dev_flow:
+    jobs:
+      - wizcli_scan
