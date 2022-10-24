@@ -11,7 +11,6 @@ jobs:
        # the dot at the end of parameters.image . says to look for Dockerfile in this directory
        - run:
            name: Build Image
-           command: docker image pull nginx:latest
            command: docker build -t nginx:latest
        # Step to download WizCLI from the inter-webs
        - run:
